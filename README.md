@@ -8,5 +8,5 @@ Install BeautifulSoup library and a HTML parser
 Go to the directory of the script and type
 ### `python code.py`
 ## How it works?
-. The script uses the idea that `wp-content` tags are very prevelant in WordPress Website source pages.
-. Additionally, the `robots.txt` is also scanned for `wp-*` and `*-wp` tags to check for WordPress signs if the above method fails.
+- The script uses the idea that `wp-content` tags are very prevelant in WordPress Website source pages.
+- Additionally, the `robots.txt` is also scanned for `wp-*` and `*-wp` tags to check for WordPress signs if the above method fails.
