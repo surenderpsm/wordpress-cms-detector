@@ -46,7 +46,7 @@ def check_robots_file(page_url):
     if(content):
         soup = BeautifulSoup(content, 'html5lib')
         # Regex to match "wp-" or "-wp" which is a sign that the CMS is WordPress
-        if(soup.find(text=re.compile("(?:wp-)|(?=.-wp)"))):
+        if(soup.find(string=re.compile("(?:wp-)|(?=.-wp)"))):
             # print("debug: found via robots")
             return True
     return False
